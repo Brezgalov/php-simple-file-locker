@@ -1,5 +1,7 @@
 <?php
 
+namespace Brezgalov\SimpleFileLocker;
+
 class FileLocker
 {
     /**
