@@ -1,0 +1,22 @@
+{
+    "name": "brezgalov/php-simple-file-locker",
+    "description": "Simple file locker for php from http://php.net/manual/ru/function.flock.php#117162",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Brezgalov",
+            "email": "oleg.brezgalov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Brezgalov\\SimpleFileLocker\\": "src/"
+        }
+    },
+    "require-dev": {
+    }
+}
